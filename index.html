@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <title>Home | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -22,96 +22,231 @@
   </head>
   <body>
     <header>
-        <img src="images/logo.png" height="27" width="190" alt="">
-        <h3>Flat Theme</h3>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact-us.html">Contact</a></li>
-        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-3">
+                    <img src="images/logo.png" height="27" width="190" alt="">
+                </div>
+                <div class="col-md-offset-2 col-md-6 hidden-xs">
+                    <nav class="menu-top">
+                         <ul class="list-inline nav nav-pills">
+                            <li role="presentation"><a href="#">Home</a></li>
+                            <li role="presentation"><a href="about-us.html">About Us</a></li>
+                            <li role="presentation"><a href="services.html">Services</a></li>
+                            <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+                            <li role="presentation"><a href="blog.html">Blog</a></li>
+                            <li =role="presentation"><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-9 hidden-md hidden-lg hidden-sm">
+                    <!-- INICIO MENU XS -->
+                    <nav class="navbar navbar-default" role="navigation">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                  data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                          <ul class="nav navbar-nav">
+                            <li><a href="#">Bienvenido</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                          </ul>
+                        </div>
+                    </nav>
+                    <!-- FIN MENU XS -->
+                </div>
+            </div>
+        </div>
     </header>
     <div class="portada">
-        <h1 class="big">Powerful and Responsive Web Design</h1>
-        <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aut quae, tenetur praesentium.</p>
+        <div class="container">
+            <div class="row">
+                <div class="texto col-md-7 col-xs-12">
+                    <h2 class="big">Powerful and Responsive Web Design</h2>
+                    <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aut quae, tenetur praesentium.</p>
+                </div>
+            </div>
+        </div>
+        
     </div>
     <div class="sociales">
-        <h1>Twitter Marketing</h1>
-        <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-        <h1>Facebook Marketing</h1>
-        <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-        <h1>Google Plus Marketing</h1>
-        <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-3">
+                    <h3>Twitter Marketing</h3>
+                    <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                </div>
+                <div class="col-md-1">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-3">
+                    <h3>Facebook Marketing</h3>
+                    <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                </div>
+                <div class="col-md-1">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-3">
+                    <h3>Google Plus Marketing</h3>
+                    <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="latest">
-        <h2>Our Latest Project</h2>
-        <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        <div class="trabajo">
-            <img src="images/portfolio/recent/item1.png" alt=""><p class="bold">Nova - Corporate site template</p>
-        </div>
-        <div class="trabajo">
-            <img src="images/portfolio/recent/item3.png" alt=""><p class="bold">Fornax - Apps site template</p>
-        </div>
-        <div class="trabajo">
-            <img src="images/portfolio/recent/item2.png" alt=""><p class="bold">Flat Theme - Bussiness template</p>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Our Latest Project</h3>
+                    <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="trabajo">
+                        <img src="images/portfolio/recent/item1.png" alt=""><p class="bold">Nova - Corporate site template</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="trabajo">
+                        <img src="images/portfolio/recent/item3.png" alt=""><p class="bold">Fornax - Apps site template</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="trabajo">
+                        <img src="images/portfolio/recent/item2.png" alt=""><p class="bold">Flat Theme - Bussiness template</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
     </div>
-    <div class="cientes-say">
-        <h2 class="white">Wha our clients say</h2>
-        <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
-        <p class="someone">- Someone famous in Source Title</p>
-        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
-        <p class="someone">- Someone famous in Source Title</p>
-        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
-        <p class="someone">- Someone famous in Source Title</p>
-        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
-        <p class="someone">- Someone famous in Source Title</p>
-    </div>
+    <section class="clientes">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="white text-center">What our clients say</h3>
+                    <p class="pallen-clientes text-center">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <blockquote>
+                        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
+                        <p class="someone">- Someone famous in <cite title="Source Title">Source Title</cite></p>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote>
+                        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
+                        <p class="someone">- Someone famous in <cite title="Source Title">Source Title</cite></p>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <blockquote>
+                        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
+                        <p class="someone">- Someone famous in <cite title="Source Title">Source Title</cite></p>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote>
+                        <p class="testimonio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, excepturi aliquam repudiandae error consectetur sit.</p>
+                        <p class="someone">- Someone famous in <cite title="Source Title">Source Title</cite></p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <div class="footer1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4 class="about">About Us</h4>
+                    <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae. Pallentesque vestibulum lorem lapsumi.</p>
+                    <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="company">Company</h4>
+                    <ul>
+                        <li class="icon">Company Overview</li>
+                        <li class="icon">Meet The Team</li>
+                        <li class="icon">Our Awesome Partners</li>
+                        <li class="icon">Our Services</li>
+                        <li class="icon">Frequently Asked Questions</li>
+                        <li class="icon">Contact Us</li>
+                        <li class="icon">Privacy Policy</li>
+                        <li class="icon">Terms of Use</li>
+                        <li class="icon">Copyright</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="latest-blog">Latest Blog</h4>
+                    <div class="blog-thumbail">
+                        <img src="images/blog/thumb1.jpg" height="64" width="64" alt="">
+                        <p class="pallen">Pallentesque habitant morbi tristique senectus.</p>
+                        <p class="posted">Posted 17 Aug 2013</p>
+                        <img src="images/blog/thumb2.jpg" height="64" width="64" alt="">
+                        <p class="pallen">Pallentesque habitant morbi tristique senectus.</p>
+                        <p class="posted">Posted 17 Aug 2013</p>
+                        <img src="images/blog/thumb3.jpg" height="64" width="64" alt="">
+                        <p class="pallen">Pallentesque habitant morbi tristique senectus.</p>
+                        <p class="posted">Posted 17 Aug 2013</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="address">Address</h4>
+                    <address>
+                        <strong>Twitter, Inc.</strong><br>
+                          1355 Market Street, Suite 900<br>
+                          San Francisco, CA 94103<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>
+                    <h4 class="news">Newsletter</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter your email">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default red" type="button">Go!</button>
+                        </span>
+                    </div><!-- /input-group -->
+                </div>
+            </div>
+        </div>
+    </div >
     <footer>
-        <h2 class="about">About Us</h2>
-        <p class="pallen">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.
-            Pallentesque habitant orbi tristique senectus.</p>
-        <h2 class="company">Company</h2>
-        <ul>
-            <li>Company Overview</li>
-            <li>Meet The Team</li>
-            <li>Our Awesome Partners</li>
-            <li>Our Services</li>
-            <li>Frequently Asked Questions</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
-            <li>Terms of Use</li>
-            <li>Copyright</li>
-        </ul>
-        <h2 class="latest">Latest Blog</h2>
-        <img src="images/blog/thumb1.jpg" height="64" width="64" alt="">
-        <p class="pallen">Pallentesque habitant morbi tristique senectus.</p>
-        <p class="posted">Posted 17 Aug 2013</p>
-        <img src="images/blog/thumb2.jpg" height="64" width="64" alt="">
-        <p class="pallen">Pallentesque habitant morbi tristique senectus.</p>
-        <p class="posted">Posted 17 Aug 2013</p>
-        <img src="images/blog/thumb3.jpg" height="64" width="64" alt="">
-        <p class="pallen">Pallentesque habitant morbi tristique senectus.</p>
-        <p class="posted">Posted 17 Aug 2013</p>
-        <h2 class="address">Address</h2>
-        <p class="addres"><b>Twitter, Inc.</b>
-            795 Folsom Ave, Suite 600
-            San Francisco, CA 94107
-            P: (123) 456-7890</p>
-        <h2 class="news">Newsletter</h2>
-        <input type="text" placeholder="Enter your email">
-        <button>Go!</button>
-        <p class="footer">&#169; 2013 ShapeBootstrap. All Rights Reserved.</p>
-        <nav class="footer">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 colxs-12">
+                    <p class="footer">&#169; 2013 ShapeBootstrap. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-offset-4 col-md-4 col-xs-12">
+                    <nav class="footer">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="js/jquery.js"></script>
