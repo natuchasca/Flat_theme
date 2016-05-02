@@ -13,3 +13,74 @@
 .clearfix:after {
   clear: both;
 }
+/*-----CSS ABOUT -----*/
+.fondo{
+	background-color: #F7F5F5;
+	width: 100%;
+}
+.texto p{
+	color:white;
+	font-size: 14px;
+}
+.progress{
+	background-color: white;
+}
+.texto2 h1,h4,h5,p {
+	width: 100%;
+	text-align: center;
+}
+.marco{
+	width: 100%;
+	text-align: center;
+	height: 350px;
+	display: inline-block;
+	float: left;
+}
+.iconos{
+	font-size: 20px;
+	padding: 10px 30px;
+	color: white;
+	height: 60px;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+}
+.iconos1{
+	background-color: blue;
+	border-radius:100px;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.iconos2{
+	background-color:red;
+	border-radius:100px;
+	width: 40px;
+	height: 40px;
+	float: left;
+	
+}
+.iconos3 {
+	background-color: #17D0FF;
+	border-radius:100px;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.iconos4{
+	background-color: #2797FF;
+	border-radius:100px;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+/*-----CSS BLOG-ITEM -----*/
+.ima1 img{
+	width: 100%;
+	height: 300px;
+}
+.ima1{
+	background-color: white;
+	height: 600px;
+}
+
