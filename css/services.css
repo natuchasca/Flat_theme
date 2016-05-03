@@ -1,5 +1,6 @@
 body {
 	background-color: #EBEBEB;
+	color: #2A3343;
 }
 
 
@@ -38,14 +39,20 @@ body {
 	padding-bottom: 50px;
 }
 
+.pallen-what {
+	margin-bottom: 30px;
+}
 
 .icon-services {
-	padding: 100% grey;
-	width: 100px;
-	height: 100px;
+	background-color: grey;
+	width: 70px;
+	height: 70px;
 	border-radius: 100px;
 	color: white;
-	font-size: 30px;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 1%;
+	margin-left: 1%;
 }
 
 
@@ -63,7 +70,7 @@ hr.line-services {
 .clientes {
 	padding-top: 30px;
 	padding-bottom: 50px;
-	color: #28425F;
+	color: #2A3343;
 }
 
 .pallen-clientes {
