@@ -162,6 +162,14 @@ ul.navbar-nav {
 	color: white;
 }
 
+.lista-left {
+	margin-left: -20px;
+}
+
+a:hover {
+	color: white;
+}
+
 .blog-thumbail img {
 	float: left;
 	margin-right: 10px;
@@ -174,10 +182,5 @@ li.icon {
 footer {
 	background-color: #1D2F44;
 	padding: 20px 0;
-	color: #BEBEBE;
-}
-
-i.fa-chevron-up {
-	font-size: 20px;
 	color: #BEBEBE;
 }
