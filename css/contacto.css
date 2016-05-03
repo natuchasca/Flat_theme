@@ -1,0 +1,50 @@
+/*	PAGINA CONTACTO */
+
+section.formulario {
+	background-color: #EBEBEB;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+textarea {
+	margin-top: 40px;
+	margin-left: -30px;
+}
+
+.btn-primary.contacto {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+}
+
+iframe {
+	width: 100%;
+}
+
+
+
+/* ------------------------ */
+
+
+/*	PAGINA PORTFOLIO */
+
+section.portfolio {
+	background-color: #EBEBEB;
+	padding: 50px 0;
+}
+
+.marco-port {
+	background-color: white;
+	width: 370px;
+	height: 270px;
+	padding-top: 10px;
+	margin: 0 auto;
+	border: 1px solid #FAFAFA;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+img.img-port {
+	width: 350px;
+	height: 230px;
+}

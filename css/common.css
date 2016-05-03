@@ -10,6 +10,8 @@ azul oscuro #1D2F44
 ------------------------ */
 
 
+
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
 .clearfix {
@@ -75,10 +77,40 @@ ul.navbar-nav {
 
 
 
+/* ------------------------ */
+
+
+
+/* GREEN SETION */
+
+.green-section {
+	background-color: #0FB64E;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	color: white;
+}
+
+.pallen-green {
+	margin-top: -10px;
+}
+
+.breadcrumb.list-green {
+	padding: 0;
+	background-color: transparent;
+	margin-top: 40px;
+	color: white;
+}
+
+.breadcrumb > .active {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.breadcrumb.list-green a {
+	color: white;
+}
 
 
 /* ------------------------ */
-
 
 
 /* FOOTER */
