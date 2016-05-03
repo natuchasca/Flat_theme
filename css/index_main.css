@@ -71,7 +71,9 @@ ul.navbar-nav {
 	background-image: url(../images/slider/bg1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	color: white;
+	display: block;
 }
 
 .texto {
@@ -125,7 +127,8 @@ i.icon-facebook.icon-sociales {
 .trabajo {
 	background-color: white;
 	width: 280px;
-	height: 310px;
+	height: 100%;
+	max-height: 310px;
 	text-align: center;
 	padding-top: 10px;
 	border: 1px solid #FAFAFA;
