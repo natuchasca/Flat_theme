@@ -1,0 +1,84 @@
+body {
+	background-color: #EBEBEB;
+}
+
+
+/* SERVICES */
+
+.services {
+	background-color: #0FB64E;
+	padding: 30px 0;
+	color: white;
+}
+
+.pallen-services {
+	margin-top: -10px;
+}
+
+.breadcrumb.services {
+	padding: 0;
+	background-color: transparent;
+	margin-top: 40px;
+	color: white;
+}
+
+.breadcrumb > .active {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.breadcrumb.services a {
+	color: white;
+}
+
+
+/* WHAT WE DO */
+
+.what {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+
+.icon-services {
+	padding: 100% grey;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	color: white;
+	font-size: 30px;
+}
+
+
+hr.line-services {
+	background-color: #BEBEBE;
+	border: 1px solid #BEBEBE;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+
+/* CLIENTES */
+
+.clientes {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	color: #28425F;
+}
+
+.pallen-clientes {
+	margin-bottom: 40px;
+	font-size: 12px;
+}
+
+.testimonio {
+	font-size: 18px;
+}
+
+.someone {
+	font-size: 12px;
+}
+
+blockquote {
+	border-left: 5px solid #DADADA;
+}
