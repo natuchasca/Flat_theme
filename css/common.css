@@ -26,7 +26,7 @@ azul oscuro #1D2F44
 texto azulado #2A3343
 ------------------------ */
 
-/* ALL */
+/* ALL PAGES */
 
 
 * {
@@ -46,6 +46,8 @@ a {
 .gris {
 	color: grey;
 }
+
+
 
 /* HEADER */
 
@@ -150,6 +152,13 @@ ul.navbar-nav {
 
 a:hover {
 	color: white;
+}
+
+.preview-blog {
+	display: block;
+	text-align: left;
+	width: 100%;
+	height: 80px;
 }
 
 .blog-thumbail img {
